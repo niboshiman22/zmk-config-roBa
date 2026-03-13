@@ -86,7 +86,7 @@
 &mt RCTRL TILDE  &kp LEFT_ALT  &mkp MB2  &mo 5  &mkp MB1  &mt LEFT_SHIFT SPACE      &kp ENTER   &lt 7 BACKSPACE                             &kp SLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         FUNCTION {
