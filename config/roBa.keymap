@@ -130,7 +130,7 @@
         SCROLL {
             bindings = <
 &trans          &kp UP_ARROW    &trans           &kp RIGHT_BRACKET  &kp BACKSLASH                                     &trans     &trans  &trans  &trans  &trans
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(N8)         &kp LS(NUMBER_9)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
 &trans          &trans          &kp LS(MINUS)    &trans             &kp AT_SIGN       &trans      &trans              &trans     &trans  &trans  &trans  &trans
 &kp DEL         &kp ESCAPE      &kp LEFT_WIN     &trans             &trans            &trans      &kp LA(LEFT_ARROW)  &kp LC(W)                          &kp EXCLAMATION
             >;
@@ -160,6 +160,15 @@
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans     &kp SLASH         &kp LS(SEMICOLON)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
 &kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans     &kp LS(NUMBER_8)  &kp KP_NUMBER_0    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
 &trans   &trans   &trans  &trans  &trans   &trans      &kp ENTER  &kp BACKSPACE                                                          &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
