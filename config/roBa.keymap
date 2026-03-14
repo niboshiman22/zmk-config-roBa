@@ -142,7 +142,7 @@
             bindings = <
 &trans          &kp UP_ARROW    &trans                   &kp RIGHT_BRACKET  &kp BACKSLASH                                     &trans     &trans  &trans  &trans  &trans
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
-&kp DELETE      &trans          &kp LS(INTERNATIONAL_1)  &trans             &kp AT            &trans      &trans              &trans     &trans  &trans  &trans  &trans
+&kp DELETE      &trans          &kp LS(INTERNATIONAL_1)  &trans             &at_macro            &trans      &trans              &trans     &trans  &trans  &trans  &trans
 &trans          &kp ESCAPE      &kp LEFT_WIN             &trans             &trans            &trans      &kp LA(LEFT_ARROW)  &kp LC(W)                          &kp EXCLAMATION
             >;
         };
