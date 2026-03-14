@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans          &kp UP_ARROW    &trans                   &kp RIGHT_BRACKET  &kp BACKSLASH                                     &trans     &trans  &trans  &trans  &trans
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
-&kp DELETE      &trans          &kp LS(INTERNATIONAL_1)  &trans             &kp LS(LBKT)      &trans      &trans              &trans     &trans  &trans  &trans  &trans
-&trans          &kp ESCAPE      &kp LEFT_WIN             &trans             &trans            &trans      &kp LA(LEFT_ARROW)  &kp LC(W)                          &kp EXCLAMATION
+&trans          &kp UP_ARROW    &trans                   &kp RIGHT_BRACKET  &kp BACKSLASH                                       &trans     &trans  &trans  &trans  &trans
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans        &trans              &trans     &trans  &trans  &trans  &trans
+&kp DELETE      &trans          &kp LS(INTERNATIONAL_1)  &kp LS(MINUS)      &kp LS(RBKT)      &kp RBKT      &trans              &trans     &trans  &trans  &trans  &trans
+&trans          &kp ESCAPE      &kp LEFT_WIN             &trans             &trans            &trans        &kp LA(LEFT_ARROW)  &kp LC(W)                          &kp EXCLAMATION
             >;
         };
 
