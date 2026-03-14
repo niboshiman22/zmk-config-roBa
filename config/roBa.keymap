@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q                &kp W         &kp E     &kp R  &kp T                                           &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A                &kp S         &kp D     &kp F  &kp G     &kp LS(LG(S))             &bt BT_PRV  &kp H          &kp J  &kp K      &kp L    &mt RCTRL TILDE
-&kp Z                &kp X         &kp C     &kp V  &lt 8 B   &kp C_MUTE                &bt BT_NXT  &lt 7 N        &kp M  &kp COMMA  &kp DOT  &kp MINUS
-&kp LS(NON_US_HASH)  &kp LEFT_ALT  &mkp MB2  &mo 5  &mkp MB1  &mt LEFT_SHIFT SPACE      &kp ENTER   &kp BACKSPACE                             &kp SLASH
+&kp Q            &kp W         &kp E     &kp R  &kp T                                           &kp Y          &kp U  &kp I      &kp O    &kp P
+&kp A            &kp S         &kp D     &kp F  &kp G     &kp LS(LG(S))             &bt BT_PRV  &kp H          &kp J  &kp K      &kp L    &mt RCTRL TILDE
+&kp Z            &kp X         &kp C     &kp V  &lt 8 B   &kp C_MUTE                &bt BT_NXT  &lt 7 N        &kp M  &kp COMMA  &kp DOT  &kp MINUS
+&kp NON_US_HASH  &kp LEFT_ALT  &mkp MB2  &mo 5  &mkp MB1  &mt LEFT_SHIFT SPACE      &kp ENTER   &kp BACKSPACE                             &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans          &kp UP_ARROW    &trans                    &kp RIGHT_BRACKET  &kp BACKSLASH                                     &trans     &trans  &trans  &trans  &trans
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW           &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
-&kp DELETE      &trans          &kp LS(NON_US_BACKSLASH)  &trans             &kp LS(NUMBER_2)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
-&trans          &kp ESCAPE      &kp LEFT_WIN              &trans             &trans            &trans      &kp LA(LEFT_ARROW)  &kp LC(W)                          &kp EXCLAMATION
+&trans          &kp UP_ARROW    &trans                   &kp RIGHT_BRACKET  &kp BACKSLASH                                     &trans     &trans  &trans  &trans  &trans
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
+&kp DELETE      &trans          &kp LS(INTERNATIONAL_1)  &trans             &kp LS(NUMBER_2)  &trans      &trans              &trans     &trans  &trans  &trans  &trans
+&trans          &kp ESCAPE      &kp LEFT_WIN             &trans             &trans            &trans      &kp LA(LEFT_ARROW)  &kp LC(W)                          &kp EXCLAMATION
             >;
         };
 
@@ -156,10 +156,10 @@
 
         layer_8 {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                          &kp LS(MINUS)        &kp MINUS          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans     &kp SLASH            &kp LS(SEMICOLON)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans     &kp LS(NON_US_HASH)  &kp KP_NUMBER_0    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&trans   &trans   &trans  &trans  &trans   &trans      &kp ENTER  &kp BACKSPACE                                                             &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                          &kp LS(MINUS)  &kp MINUS          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans     &kp SLASH      &kp LS(SEMICOLON)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans     &kp LS(N8)     &kp KP_NUMBER_0    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans   &trans   &trans  &trans  &trans   &trans      &kp ENTER  &kp BACKSPACE                                                       &trans
             >;
         };
     };
